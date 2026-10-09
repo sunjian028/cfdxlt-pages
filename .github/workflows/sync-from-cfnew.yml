@@ -7,6 +7,8 @@ on:
 
 jobs:
   sync-release:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     
     steps:
@@ -171,4 +173,3 @@ jobs:
           else
             echo "- 状态: ⏭️ 版本相同，无需更新" >> $GITHUB_STEP_SUMMARY
           fi
-
