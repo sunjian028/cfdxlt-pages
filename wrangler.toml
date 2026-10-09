@@ -1,0 +1,7 @@
+name = "cfdxlt-pages"
+compatibility_date = "2026-01-20"
+pages_build_output_dir = "."
+
+[[kv_namespaces]]
+binding = "C"
+id = "2282e57f440146b29ceb9f6e3b4658fb"
